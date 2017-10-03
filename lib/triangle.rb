@@ -15,7 +15,6 @@ class Triangle
         raise TriangleError
 #      rescue TriangleError => error
 #        puts error.message
-
     elsif @side1 == @side2 && @side1 == @side 3
       :equilateral
     elsif @side1 == @side2 || @side2 == @side3 #relying on order of the conditionals here
