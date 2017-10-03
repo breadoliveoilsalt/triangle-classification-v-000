@@ -21,7 +21,7 @@ class Triangle
     elsif @side1 == @side2 && @side1 == @side3
 #    elsif @side1 && @side2 == @side 3
       :equilateral
-    elsif @side1 == @side2 || @side2 == @side3 #relying on order of the conditionals here
+    elsif @side1 == @side2 || @side2 == @side3 || @side1 == @side3#relying on order of the conditionals here
       :isosceles
     elsif @side1 && @side2 != @side3
       :scelene
