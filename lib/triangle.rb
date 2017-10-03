@@ -12,6 +12,7 @@ class Triangle
   end
 
   def kind
+    puts @side1
     if (@side1 < 1 || @side2 < 1 || @side3 < 1) || (@side1 + @side2 <= @side3 || @side2 + @side3 <= @side1 || @side1 + @side3 <= @side2)
 #      begin
     #binding.pry
