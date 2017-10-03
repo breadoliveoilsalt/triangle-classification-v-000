@@ -13,7 +13,6 @@ class Triangle
 
   def kind
     if (@side1 < 1 || @side2 < 1 || @side3 < 1) || (@side1 + @side2 <= @side3 || @side2 + @side3 <= @side1 || @side1 + @side3 <= @side2)
-    binding.pry
         raise TriangleError
     elsif @side1 == @side2 && @side1 == @side3
       :equilateral
