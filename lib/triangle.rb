@@ -22,8 +22,9 @@ class Triangle
       :isosceles
     elsif @side1 && @side2 != @side3
       :scelene
+    end
   end
-  
+
 end
 
 class TriangleError < StandardError
